@@ -15,9 +15,9 @@
 // .then(res => res.json())
 // .then(console.log);
 
-// console.log(uname)
-// // tdz
-// let uname = "ali"
+console.log(uname)
+// tdz
+let uname = "ali"
 
 // if (true) {
 //     let fname = "ali"
