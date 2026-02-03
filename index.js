@@ -15,9 +15,9 @@
 // .then(res => res.json())
 // .then(console.log);
 
-console.log(uname)
-// tdz
-let uname = "ali"
+// console.log(uname)
+// // tdz
+// let uname = "ali"
 
 // if (true) {
 //     let fname = "ali"
@@ -122,13 +122,13 @@ let uname = "ali"
 // synchronous  //line by line
 // asynchronous //
 
-console.log("first line")
+// console.log("first line")
 
-async function test() {
- setTimeout(()=>{
-    console.log("set time out")
-},2000)
-}
-setTimeout(test)
+// async function test() {
+//  setTimeout(()=>{
+//     console.log("set time out")
+// },2000)
+// }
+// setTimeout(test)
 
-console.log("second line")
+// console.log("second line")
