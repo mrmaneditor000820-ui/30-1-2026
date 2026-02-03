@@ -283,22 +283,22 @@
 
 //  --- call()
 
-function student(fname) {
-    return console.log(`hello  ${fname}  ${this.roll}  ` )
-}
-const student1 = {
-    firstName: "bilal",
-    lastName: "awan",
-    age: 20,
-    roll:102
-}
-const student2 = {
-    firstName: "kashif",
-    lastName: "khan",
-    age: 30
-}
+// function student() {
+//     return console.log(`hello  ${this.age}  ${this.lastName}  ` )
+// }
+// const student1 = {
+//     firstName: "bilal",
+//     lastName: "awan",
+//     age: 20,
+//     roll:102
+// }
+// const student2 = {
+//     firstName: "kashif",
+//     lastName: "khan",
+//     age: 30
+// }
 
-student.call(student1,"khan")
+// student.call(student2)
 
 // const studentData = {
 //     fullName: function () {
